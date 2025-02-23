@@ -26,7 +26,7 @@ for feature in feature_names:
 if st.button("Predict"):
 
     if max(user_input)==0:
-        st.error("Provide Input First Bhadwe")
+        st.error("Provide Input First !")
     else:
         # Convert input to NumPy array and reshape
         user_array = np.array(user_input).reshape(1, -1)
